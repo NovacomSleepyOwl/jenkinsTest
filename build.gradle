@@ -22,6 +22,11 @@ repositories {
 	mavenCentral()
 }
 
+test {
+	useTestNG {
+		suites "src/test/resources/testng.xml"
+	}
+}
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')

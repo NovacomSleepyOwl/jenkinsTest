@@ -31,7 +31,7 @@ public class JenkinsTestApplicationTests extends AbstractTestNGSpringContextTest
 		return new Object[][]{
 				{a, b},
 				{a, b2},
-//				{a, error}
+				{a, error}
 		};
 	}
 

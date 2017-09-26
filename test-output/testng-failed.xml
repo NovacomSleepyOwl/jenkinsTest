@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [net.nvcm.testResult]">
+  <test name="net.nvcm.jenkinstest(failed)">
+    <classes>
+      <class name="net.nvcm.jenkinstest.JenkinsTestApplicationTests">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="tryToCalcluate" invocation-numbers="2"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- net.nvcm.jenkinstest.JenkinsTestApplicationTests -->
+    </classes>
+  </test> <!-- net.nvcm.jenkinstest(failed) -->
+</suite> <!-- Failed suite [net.nvcm.testResult] -->
